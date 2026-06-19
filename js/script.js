@@ -62,29 +62,39 @@ window.addEventListener('load', typeAboutText);
 
 const galleryData = {
   'project-1': [
-    { src: 'assets/project-1/image-1.png', alt: 'Converto image 1', caption: 'Converto — Image 1 of 4' },
-    { src: 'assets/project-1/image-2.png', alt: 'Converto image 2', caption: 'Converto — Image 2 of 4' },
-    { src: 'assets/project-1/image-3.png', alt: 'Converto image 3', caption: 'Converto — Image 3 of 4' },
-    { src: 'assets/project-1/image-4.png', alt: 'Converto image 4', caption: 'Converto — Image 4 of 4' }
+    { src: 'assets/project-1/image-1.png', alt: 'WorkApp image 1', caption: 'WorkApp — Image 1 of 4' },
+    { src: 'assets/project-1/image-2.png', alt: 'WorkApp image 2', caption: 'WorkApp — Image 2 of 4' },
+    { src: 'assets/project-1/image-3.png', alt: 'WorkApp image 3', caption: 'WorkApp — Image 3 of 4' },
+    { src: 'assets/project-1/image-4.png', alt: 'WorkApp image 4', caption: 'WorkApp — Image 4 of 4' }
   ],
+
   'project-2': [
-    { src: 'assets/project-2/image-1.png', alt: 'HireTrack image 1', caption: 'HireTrack — Image 1 of 4' },
-    { src: 'assets/project-2/image-2.png', alt: 'HireTrack image 2', caption: 'HireTrack — Image 2 of 4' },
-    { src: 'assets/project-2/image-3.png', alt: 'HireTrack image 3', caption: 'HireTrack — Image 3 of 4' },
-    { src: 'assets/project-2/image-4.png', alt: 'HireTrack image 4', caption: 'HireTrack — Image 4 of 4' }
+    { src: 'assets/project-2/image-1.png', alt: 'Converto image 1', caption: 'Converto — Image 1 of 4' },
+    { src: 'assets/project-2/image-2.png', alt: 'Converto image 2', caption: 'Converto — Image 2 of 4' },
+    { src: 'assets/project-2/image-3.png', alt: 'Converto image 3', caption: 'Converto — Image 3 of 4' },
+    { src: 'assets/project-2/image-4.png', alt: 'Converto image 4', caption: 'Converto — Image 4 of 4' }
   ],
+
   'project-3': [
-    { src: 'assets/project-3/image-1.png', alt: 'Rental Cars image 1', caption: 'Rental Cars — Image 1 of 4' },
-    { src: 'assets/project-3/image-2.png', alt: 'Rental Cars image 2', caption: 'Rental Cars — Image 2 of 4' },
-    { src: 'assets/project-3/image-3.png', alt: 'Rental Cars image 3', caption: 'Rental Cars — Image 3 of 4' },
-    { src: 'assets/project-3/image-4.png', alt: 'Rental Cars image 4', caption: 'Rental Cars — Image 4 of 4' }
+    { src: 'assets/project-3/image-1.png', alt: 'HireTrack image 1', caption: 'HireTrack — Image 1 of 4' },
+    { src: 'assets/project-3/image-2.png', alt: 'HireTrack image 2', caption: 'HireTrack — Image 2 of 4' },
+    { src: 'assets/project-3/image-3.png', alt: 'HireTrack image 3', caption: 'HireTrack — Image 3 of 4' },
+    { src: 'assets/project-3/image-4.png', alt: 'HireTrack image 4', caption: 'HireTrack — Image 4 of 4' }
   ],
+
   'project-4': [
-    { src: 'assets/project-4/image-1.png', alt: 'Pintoflix image 1', caption: 'Pintoflix — Image 1 of 4' },
-    { src: 'assets/project-4/image-2.png', alt: 'Pintoflix image 2', caption: 'Pintoflix — Image 2 of 4' },
-    { src: 'assets/project-4/image-3.png', alt: 'Pintoflix image 3', caption: 'Pintoflix — Image 3 of 4' },
-    { src: 'assets/project-4/image-4.png', alt: 'Pintoflix image 4', caption: 'Pintoflix — Image 4 of 4' }
+    { src: 'assets/project-4/image-1.png', alt: 'Rental Cars image 1', caption: 'Rental Cars — Image 1 of 4' },
+    { src: 'assets/project-4/image-2.png', alt: 'Rental Cars image 2', caption: 'Rental Cars — Image 2 of 4' },
+    { src: 'assets/project-4/image-3.png', alt: 'Rental Cars image 3', caption: 'Rental Cars — Image 3 of 4' },
+    { src: 'assets/project-4/image-4.png', alt: 'Rental Cars image 4', caption: 'Rental Cars — Image 4 of 4' }
   ],
+
+  'project-5': [
+    { src: 'assets/project-5/image-1.png', alt: 'Pintoflix image 1', caption: 'Pintoflix — Image 1 of 4' },
+    { src: 'assets/project-5/image-2.png', alt: 'Pintoflix image 2', caption: 'Pintoflix — Image 2 of 4' },
+    { src: 'assets/project-5/image-3.png', alt: 'Pintoflix image 3', caption: 'Pintoflix — Image 3 of 4' },
+    { src: 'assets/project-5/image-4.png', alt: 'Pintoflix image 4', caption: 'Pintoflix — Image 4 of 4' }
+  ]
 };
 
 const lightbox = document.getElementById('lightbox');
