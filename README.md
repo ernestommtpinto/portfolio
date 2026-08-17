@@ -26,21 +26,6 @@ The website is fully responsive and optimized for desktop, tablet and mobile dev
 - Downloadable CV
 - LinkedIn and GitHub integration
 
-## Projects Featured
-
-### Converto
-A responsive utility application that includes currency, weight, distance, weather and area conversions.
-
-### Donutopia
-An online donut shop with cart functionality and dynamic price calculation.
-
-### Rental Cars
-A responsive car rental website featuring multiple vehicles and daily rental pricing.
-
-### Pintoflix
-A Netflix-inspired movie platform with support for Portuguese and English movie descriptions.
-
-
 ## Live Website
 
 🌐 https://www.ernestommtpinto.com
