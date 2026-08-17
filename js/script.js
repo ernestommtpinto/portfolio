@@ -41,9 +41,10 @@ document.addEventListener('click', (event) => {
   }
 });
 
-const aboutText = `I am a 33-year-old frontend-focused developer with a strong foundation in computer science and web development. I have experience building responsive and user-friendly interfaces using modern web technologies, with a particular interest in clean design and intuitive user experiences.
+const aboutText = `I’m a frontend developer who enjoys turning ideas into clean, responsive and easy-to-use web experiences. I mainly work with React, JavaScript, HTML and CSS, and I’m always looking for ways to make interfaces feel simple and intuitive.
 
-Alongside my technical skills, I bring valuable experience from leadership roles, which have strengthened my communication, problem-solving, and ability to work under pressure.`;
+I also bring experience from leadership roles, which has helped me become a strong communicator, team player and problem solver. I enjoy working with others, sharing ideas and taking ownership of the work I do.
+`;
 
 const typingText = document.getElementById('typingText');
 let index = 0;
