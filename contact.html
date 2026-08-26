@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#020617" />
+<meta name="description" content="Contact Ernesto Pinto, frontend developer focused on React and modern web applications." />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+<title>Contact | Ernesto Pinto</title>
+</head>
+<body data-page="contact">
+<div class="site-bg"></div>
+
+<button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">
+  <i class="bi bi-list"></i>
+</button>
+
+<aside class="sidebar" id="sidebar">
+  <div>
+    <a href="index.html" class="profile-link" aria-label="Go to Home">
+      <img src="images/profile.png" alt="Ernesto Pinto profile photo" class="profile-img" />
+      <span class="status-dot" aria-hidden="true"></span>
+      <div class="profile-name">Ernesto Pinto</div>
+      <div class="profile-role">Frontend Developer · React</div>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html" data-page="home"><i class="bi bi-house-door"></i> Home</a>
+      <a href="about.html" data-page="about"><i class="bi bi-person"></i> About</a>
+      <a href="stack.html" data-page="stack"><i class="bi bi-code-slash"></i> Skills</a>
+      <a href="portfolio.html" data-page="portfolio"><i class="bi bi-briefcase"></i> Projects</a>
+      <a href="contact.html" data-page="contact"><i class="bi bi-envelope"></i> Contact</a>
+    </nav>
+  </div>
+
+  <div class="sidebar-bottom">
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/ernesto-pinto-a377b2281/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://github.com/ernestommtpinto" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="contact.html" aria-label="Contact Ernesto">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <p class="sidebar-note"><span class="availability-dot"></span> Open to frontend opportunities</p>
+  </div>
+</aside>
+
+<main class="main-content">
+  <section class="page-section contact-section">
+    <div class="section-card reveal">
+      <p class="eyebrow">Get in touch</p>
+      <h1 class="section-title">Let’s talk about your opportunity.</h1>
+      <p class="section-description">
+        I’m open to frontend developer roles, contract opportunities and selected freelance projects. Choose the easiest way to reach me below.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-card contact-card-primary">
+          <div class="contact-icon"><i class="bi bi-envelope"></i></div>
+          <span class="contact-label">Email</span>
+          <h2>ernestommtpinto@gmail.com</h2>
+          <p>Copy my email address or open your preferred webmail provider.</p>
+
+          <div class="contact-actions">
+            <button class="btn btn-custom" id="copyEmail" type="button" data-email="ernestommtpinto@gmail.com">
+              <i class="bi bi-copy"></i> <span>Copy email</span>
+            </button>
+            <a class="btn btn-outline-custom"
+               href="https://mail.google.com/mail/?view=cm&fs=1&to=ernestommtpinto@gmail.com&su=Frontend%20Opportunity"
+               target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-google"></i> Gmail
+            </a>
+            <a class="btn btn-outline-custom"
+               href="https://outlook.office.com/mail/deeplink/compose?to=ernestommtpinto@gmail.com&subject=Frontend%20Opportunity"
+               target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-microsoft"></i> Outlook
+            </a>
+          </div>
+
+          <p class="copy-feedback" id="copyFeedback" aria-live="polite"></p>
+        </div>
+
+        <a class="contact-card contact-link-card" href="https://www.linkedin.com/in/ernesto-pinto-a377b2281/" target="_blank" rel="noopener noreferrer">
+          <div class="contact-icon"><i class="bi bi-linkedin"></i></div>
+          <span class="contact-label">LinkedIn</span>
+          <h2>Connect with me</h2>
+          <p>Send me a message or connect with me directly on LinkedIn.</p>
+          <span class="contact-arrow">Open LinkedIn <i class="bi bi-arrow-up-right"></i></span>
+        </a>
+
+        <a class="contact-card contact-link-card" href="https://github.com/ernestommtpinto" target="_blank" rel="noopener noreferrer">
+          <div class="contact-icon"><i class="bi bi-github"></i></div>
+          <span class="contact-label">GitHub</span>
+          <h2>View my code</h2>
+          <p>Explore my repositories and the source code behind my frontend projects.</p>
+          <span class="contact-arrow">Open GitHub <i class="bi bi-arrow-up-right"></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

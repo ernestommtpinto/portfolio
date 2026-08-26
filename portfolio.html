@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Ernesto Pinto frontend developer portfolio." />
+<meta name="theme-color" content="#020617" />
 <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/style.css" />
 
-  <title>My Portfolio | Ernesto Pinto</title>
+<meta name="description" content="Frontend projects by Ernesto Pinto, including React dashboards, workforce management tools and responsive web applications." />
+<title>Projects | Ernesto Pinto</title>
 </head>
 <body data-page="portfolio">
-  <div class="site-bg"></div>
-  <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu">
+<div class="site-bg"></div>
+
+<button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">
   <i class="bi bi-list"></i>
 </button>
 
@@ -22,16 +26,17 @@
   <div>
     <a href="index.html" class="profile-link" aria-label="Go to Home">
       <img src="images/profile.png" alt="Ernesto Pinto profile photo" class="profile-img" />
-      <span class="status-dot"></span>
+      <span class="status-dot" aria-hidden="true"></span>
       <div class="profile-name">Ernesto Pinto</div>
-      <div class="profile-role">Frontend Developer</div>
+      <div class="profile-role">Frontend Developer · React</div>
     </a>
 
     <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html" data-page="home"><i class="bi bi-house-door"></i> Home</a>
-      <a href="about.html" data-page="about"><i class="bi bi-person"></i> About Me</a>
-      <a href="stack.html" data-page="stack"><i class="bi bi-code-slash"></i> My Stack</a>
-      <a href="portfolio.html" data-page="portfolio"><i class="bi bi-briefcase"></i> My Portfolio</a>
+      <a href="about.html" data-page="about"><i class="bi bi-person"></i> About</a>
+      <a href="stack.html" data-page="stack"><i class="bi bi-code-slash"></i> Skills</a>
+      <a href="portfolio.html" data-page="portfolio"><i class="bi bi-briefcase"></i> Projects</a>
+      <a href="contact.html" data-page="contact"><i class="bi bi-envelope"></i> Contact</a>
     </nav>
   </div>
 
@@ -43,275 +48,266 @@
       <a href="https://github.com/ernestommtpinto" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
         <i class="bi bi-github"></i>
       </a>
+      <a href="contact.html" aria-label="Email Ernesto">
+        <i class="bi bi-envelope"></i>
+      </a>
     </div>
-    <p class="sidebar-note">Available for frontend projects</p>
+    <p class="sidebar-note"><span class="availability-dot"></span> Open to frontend opportunities</p>
   </div>
 </aside>
 
-  <main class="main-content">
-    <section class="page-section portfolio-section">
-      <div class="section-card">
-        <h1 class="section-title">My Portfolio</h1>
-        <p class="section-description">
-          A selection of responsive frontend projects built with React, HTML, CSS, JavaScript, Bootstrap and modern web technologies.
-        </p>
 
+<main class="main-content">
+  <section class="page-section portfolio-section">
+    <div class="section-card">
+      <p class="eyebrow">Selected work</p>
+      <h1 class="section-title">Projects built around real use cases.</h1>
+      <p class="section-description">
+        A selection of projects that show how I approach frontend development — from product structure and responsive UI to interaction, usability and delivery.
+      </p>
 
-        
-
-        <article class="project-block reveal">
-          <div class="project-header">
-            <div>
-              <h2>WorkApp</h2>
-            </div>
+      <article class="project-block project-featured reveal" id="workapp">
+        <div class="project-header">
+          <div>
+            <div class="project-topline"><span class="project-status">In development</span><span>Workforce management</span></div>
+            <h2>WorkApp</h2>
           </div>
+          <div class="project-tech-tags"><span>React</span><span>Bootstrap</span><span>Vite</span></div>
+        </div>
 
-          <div class="row g-3 gallery-row">
+        <div class="row g-3 gallery-row">
+          <div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-1" data-index="0" aria-label="Open WorkApp image 1">
+    <img src="assets/project-1/image-1.png" alt="WorkApp interface preview 1" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-1" data-index="1" aria-label="Open WorkApp image 2">
+    <img src="assets/project-1/image-2.png" alt="WorkApp interface preview 2" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-1" data-index="2" aria-label="Open WorkApp image 3">
+    <img src="assets/project-1/image-3.png" alt="WorkApp interface preview 3" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-1" data-index="3" aria-label="Open WorkApp image 4">
+    <img src="assets/project-1/image-4.png" alt="WorkApp interface preview 4" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+        </div>
 
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-1" data-index="0" aria-label="Open WorkApp image 1">
-                  <img src="assets/project-1/image-1.png" alt="WorkApp image 1" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-1" data-index="1" aria-label="Open WorkApp image 2">
-                  <img src="assets/project-1/image-2.png" alt="WorkApp image 2" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-1" data-index="2" aria-label="Open WorkApp image 3">
-                  <img src="assets/project-1/image-3.png" alt="WorkApp image 3" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-1" data-index="3" aria-label="Open WorkApp image 4">
-                  <img src="assets/project-1/image-4.png" alt="WorkApp image 4" class="gallery-img" />
-                </button>
-              </div>
+        <div class="project-copy-grid">
+          <div>
+            <h3>What I built</h3>
+            <p class="project-description">A modern employee management platform designed to bring everyday workforce tasks into one clear dashboard. The interface covers employees, schedules, holidays, absences, medical leave, overtime and monthly reporting.</p>
           </div>
-
-          <p class="project-description">A modern employee management platform built with React, HTML, Bootstrap and Vite, with interfaces designed in Figma. WorkApp allows companies to manage employees, schedules, holidays, absences, medical leave, overtime and monthly reports through a responsive and intuitive dashboard experience.</p>
-
-          <div class="project-actions">
-            <a href="https://workapp-murex.vercel.app/" target="_blank" rel="noopener noreferrer" class="live-project-link">
-              <i class="bi bi-box-arrow-up-right"></i>
-              Visit Website
-            </a>
-            <a href="https://github.com/ernestommtpinto/workapp" target="_blank" rel="noopener noreferrer" class="github-project-link">
-              <i class="bi bi-github"></i>
-              GitHub
-            </a>
+          <div class="project-details">
+            <div><span>Focus</span><strong>Business dashboard & responsive UX</strong></div>
+            <div><span>My role</span><strong>Frontend development & UI implementation</strong></div>
+            <div><span>Goal</span><strong>Make daily workforce management easier to understand</strong></div>
           </div>
-        </article>
+        </div>
 
-        <article class="project-block reveal">
-          <div class="project-header">
-            <div>
-              <h2>Converto</h2>
-            </div>
+        <div class="project-actions">
+          <a href="https://workapp-murex.vercel.app/" target="_blank" rel="noopener noreferrer" class="live-project-link"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+          <a href="https://github.com/ernestommtpinto/workapp" target="_blank" rel="noopener noreferrer" class="github-project-link"><i class="bi bi-github"></i> Source Code</a>
+        </div>
+      </article>
+
+      <article class="project-block reveal" id="hiretrack">
+        <div class="project-header">
+          <div>
+            <div class="project-topline"><span class="project-status">React project</span><span>Productivity</span></div>
+            <h2>HireTrack</h2>
           </div>
+          <div class="project-tech-tags"><span>React</span><span>Bootstrap</span><span>localStorage</span></div>
+        </div>
 
-          <div class="row g-3 gallery-row">
+        <div class="row g-3 gallery-row">
+          <div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-3" data-index="0" aria-label="Open HireTrack image 1">
+    <img src="assets/project-3/image-1.png" alt="HireTrack interface preview 1" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-3" data-index="1" aria-label="Open HireTrack image 2">
+    <img src="assets/project-3/image-2.png" alt="HireTrack interface preview 2" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-3" data-index="2" aria-label="Open HireTrack image 3">
+    <img src="assets/project-3/image-3.png" alt="HireTrack interface preview 3" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-3" data-index="3" aria-label="Open HireTrack image 4">
+    <img src="assets/project-3/image-4.png" alt="HireTrack interface preview 4" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+        </div>
 
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-2" data-index="0" aria-label="Open Converto image 1">
-                  <img src="assets/project-2/image-1.png" alt="Converto image 1" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-2" data-index="1" aria-label="Open Converto image 2">
-                  <img src="assets/project-2/image-2.png" alt="Converto image 2" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-2" data-index="2" aria-label="Open Converto image 3">
-                  <img src="assets/project-2/image-3.png" alt="Converto image 3" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-2" data-index="3" aria-label="Open Converto image 4">
-                  <img src="assets/project-2/image-4.png" alt="Converto image 4" class="gallery-img" />
-                </button>
-              </div>
+        <div class="project-copy-grid">
+          <div>
+            <h3>What I built</h3>
+            <p class="project-description">A job application tracking platform that helps users organise opportunities, follow applications through different stages and understand progress through a clean statistics dashboard.</p>
           </div>
-
-          <p class="project-description">A responsive utility web application built with HTML, Bootstrap and JavaScript. Converto allows users to perform different types of conversions, including currency, weight, distance, weather and area calculations. The application is designed to be simple, fast and fully responsive across desktop, tablet and mobile devices.</p>
-
-          <div class="project-actions">
-            <a href="https://ernestommtpinto.github.io/converto/" target="_blank" rel="noopener noreferrer" class="live-project-link">
-              <i class="bi bi-box-arrow-up-right"></i>
-              Visit Website
-            </a>
-            <a href="https://github.com/ernestommtpinto/converto" target="_blank" rel="noopener noreferrer" class="github-project-link">
-              <i class="bi bi-github"></i>
-              GitHub
-            </a>
+          <div class="project-details">
+            <div><span>Focus</span><strong>Dashboard UI & application state</strong></div>
+            <div><span>My role</span><strong>Frontend development</strong></div>
+            <div><span>Goal</span><strong>Turn a messy job search into a clear workflow</strong></div>
           </div>
-        </article>
+        </div>
 
+        <div class="project-actions">
+          <a href="https://hiretrack-psi.vercel.app/" target="_blank" rel="noopener noreferrer" class="live-project-link"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+          <a href="https://github.com/ernestommtpinto/hiretrack" target="_blank" rel="noopener noreferrer" class="github-project-link"><i class="bi bi-github"></i> Source Code</a>
+        </div>
+      </article>
 
-        <article class="project-block reveal">
-          <div class="project-header">
-            <div>
-              <h2>HireTrack</h2>
-            </div>
+      <article class="project-block reveal" id="converto">
+        <div class="project-header">
+          <div>
+            <div class="project-topline"><span class="project-status">Utility app</span><span>Responsive web</span></div>
+            <h2>Converto</h2>
           </div>
+          <div class="project-tech-tags"><span>JavaScript</span><span>Bootstrap</span><span>Responsive UI</span></div>
+        </div>
 
-          <div class="row g-3 gallery-row">
+        <div class="row g-3 gallery-row">
+          <div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-2" data-index="0" aria-label="Open Converto image 1">
+    <img src="assets/project-2/image-1.png" alt="Converto interface preview 1" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-2" data-index="1" aria-label="Open Converto image 2">
+    <img src="assets/project-2/image-2.png" alt="Converto interface preview 2" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-2" data-index="2" aria-label="Open Converto image 3">
+    <img src="assets/project-2/image-3.png" alt="Converto interface preview 3" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-2" data-index="3" aria-label="Open Converto image 4">
+    <img src="assets/project-2/image-4.png" alt="Converto interface preview 4" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+        </div>
 
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-3" data-index="0" aria-label="Open HireTrack image 1">
-                  <img src="assets/project-3/image-1.png" alt="HireTrack image 1" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-3" data-index="1" aria-label="Open HireTrack image 2">
-                  <img src="assets/project-3/image-2.png" alt="HireTrack image 2" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-3" data-index="2" aria-label="Open HireTrack image 3">
-                  <img src="assets/project-3/image-3.png" alt="HireTrack image 3" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-3" data-index="3" aria-label="Open HireTrack image 4">
-                  <img src="assets/project-3/image-4.png" alt="HireTrack image 4" class="gallery-img" />
-                </button>
-              </div>
+        <div class="project-copy-grid">
+          <div>
+            <h3>What I built</h3>
+            <p class="project-description">A responsive utility application for everyday conversions, including currency, weight, distance, weather and area calculations. The experience is designed to stay quick and clear across desktop, tablet and mobile.</p>
           </div>
-
-          <p class="project-description">A modern job application tracking platform built with React, Bootstrap and localStorage. HireTrack helps users organize their job search by adding applications, tracking progress through different statuses, viewing key statistics and managing opportunities through a clean, responsive dashboard experience.</p>
-
-          <div class="project-actions">
-            <a href="https://hiretrack-psi.vercel.app/" target="_blank" rel="noopener noreferrer" class="live-project-link">
-              <i class="bi bi-box-arrow-up-right"></i>
-              Visit Website
-            </a>
-            <a href="https://github.com/ernestommtpinto/hiretrack" target="_blank" rel="noopener noreferrer" class="github-project-link">
-              <i class="bi bi-github"></i>
-              GitHub
-            </a>
+          <div class="project-details">
+            <div><span>Focus</span><strong>Usability & responsive behaviour</strong></div>
+            <div><span>My role</span><strong>Frontend development</strong></div>
+            <div><span>Goal</span><strong>Make frequent conversions fast and frictionless</strong></div>
           </div>
-        </article>
+        </div>
 
+        <div class="project-actions">
+          <a href="https://ernestommtpinto.github.io/converto/" target="_blank" rel="noopener noreferrer" class="live-project-link"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+          <a href="https://github.com/ernestommtpinto/converto" target="_blank" rel="noopener noreferrer" class="github-project-link"><i class="bi bi-github"></i> Source Code</a>
+        </div>
+      </article>
 
-        <article class="project-block reveal">
-          <div class="project-header">
-            <div>
-              <h2>Rental Cars</h2>
-            </div>
-          </div>
-
-          <div class="row g-3 gallery-row">
-
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-4" data-index="0" aria-label="Open Rental Cars image 1">
-                  <img src="assets/project-4/image-1.png" alt="Rental Cars image 1" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-4" data-index="1" aria-label="Open Rental Cars image 2">
-                  <img src="assets/project-4/image-2.png" alt="Rental Cars image 2" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-4" data-index="2" aria-label="Open Rental Cars image 3">
-                  <img src="assets/project-4/image-3.png" alt="Rental Cars image 3" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-4" data-index="3" aria-label="Open Rental Cars image 4">
-                  <img src="assets/project-4/image-4.png" alt="Rental Cars image 4" class="gallery-img" />
-                </button>
-              </div>
-          </div>
-
-          <p class="project-description">A responsive car rental website built with HTML, CSS and JavaScript. The project includes 10 cars available for rent, each with its own daily price, giving users a simple, clear and device-friendly rental browsing experience.</p>
-
-          <div class="project-actions">
-            <a href="https://ernestommtpinto.github.io/cars" target="_blank" rel="noopener noreferrer" class="live-project-link">
-              <i class="bi bi-box-arrow-up-right"></i>
-              Visit Website
-            </a>
-            <a href="https://github.com/ernestommtpinto/cars" target="_blank" rel="noopener noreferrer" class="github-project-link">
-              <i class="bi bi-github"></i>
-              GitHub
-            </a>
-          </div>
-        </article>
-
-
-        <article class="project-block reveal">
-          <div class="project-header">
-            <div>
-              <h2>Pintoflix</h2>
-            </div>
-          </div>
-
-          <div class="row g-3 gallery-row">
-
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-5" data-index="0" aria-label="Open Pintoflix image 1">
-                  <img src="assets/project-5/image-1.png" alt="Pintoflix image 1" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-5" data-index="1" aria-label="Open Pintoflix image 2">
-                  <img src="assets/project-5/image-2.png" alt="Pintoflix image 2" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-5" data-index="2" aria-label="Open Pintoflix image 3">
-                  <img src="assets/project-5/image-3.png" alt="Pintoflix image 3" class="gallery-img" />
-                </button>
-              </div>
-              <div class="col-6 col-xl-3">
-                <button class="gallery-link" type="button" data-gallery="project-5" data-index="3" aria-label="Open Pintoflix image 4">
-                  <img src="assets/project-5/image-4.png" alt="Pintoflix image 4" class="gallery-img" />
-                </button>
-              </div>
-          </div>
-
-          <p class="project-description">A Netflix-inspired responsive movie interface built with HTML, CSS and JavaScript. The project includes a language toggle button that switches movie descriptions between Portuguese and English, creating a more dynamic experience across all devices.</p>
-
-          <div class="project-actions">
-            <a href="https://ernestommtpinto.github.io/pintoflix/" target="_blank" rel="noopener noreferrer" class="live-project-link">
-              <i class="bi bi-box-arrow-up-right"></i>
-              Visit Website
-            </a>
-            <a href="https://github.com/ernestommtpinto/pintoflix" target="_blank" rel="noopener noreferrer" class="github-project-link">
-              <i class="bi bi-github"></i>
-              GitHub
-            </a>
-          </div>
-        </article>
-
-
+      <div class="earlier-heading reveal">
+        <p class="eyebrow">Earlier projects</p>
+        <h2>Where I built my foundations.</h2>
       </div>
-    </section>
-  </main>
 
-  <div class="lightbox" id="lightbox" aria-hidden="true">
-    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close fullscreen image">
-      <i class="bi bi-x-lg"></i>
-    </button>
+      <article class="project-block project-secondary reveal" id="rental-cars">
+        <div class="project-header">
+          <div><h2>Rental Cars</h2></div>
+          <div class="project-tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </div>
+        <div class="row g-3 gallery-row"><div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-4" data-index="0" aria-label="Open Rental Cars image 1">
+    <img src="assets/project-4/image-1.png" alt="Rental Cars interface preview 1" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-4" data-index="1" aria-label="Open Rental Cars image 2">
+    <img src="assets/project-4/image-2.png" alt="Rental Cars interface preview 2" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-4" data-index="2" aria-label="Open Rental Cars image 3">
+    <img src="assets/project-4/image-3.png" alt="Rental Cars interface preview 3" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-4" data-index="3" aria-label="Open Rental Cars image 4">
+    <img src="assets/project-4/image-4.png" alt="Rental Cars interface preview 4" class="gallery-img" loading="lazy" />
+  </button>
+</div></div>
+        <p class="project-description">A responsive car rental interface with a clear vehicle catalogue and daily pricing, built to practise structured frontend layouts and device-friendly browsing.</p>
+        <div class="project-actions">
+          <a href="https://ernestommtpinto.github.io/cars" target="_blank" rel="noopener noreferrer" class="live-project-link"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+          <a href="https://github.com/ernestommtpinto/cars" target="_blank" rel="noopener noreferrer" class="github-project-link"><i class="bi bi-github"></i> Source Code</a>
+        </div>
+      </article>
 
-    <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous image">
-      <i class="bi bi-chevron-left"></i>
-    </button>
+      <article class="project-block project-secondary reveal" id="pintoflix">
+        <div class="project-header">
+          <div><h2>Pintoflix</h2></div>
+          <div class="project-tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </div>
+        <div class="row g-3 gallery-row"><div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-5" data-index="0" aria-label="Open Pintoflix image 1">
+    <img src="assets/project-5/image-1.png" alt="Pintoflix interface preview 1" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-5" data-index="1" aria-label="Open Pintoflix image 2">
+    <img src="assets/project-5/image-2.png" alt="Pintoflix interface preview 2" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-5" data-index="2" aria-label="Open Pintoflix image 3">
+    <img src="assets/project-5/image-3.png" alt="Pintoflix interface preview 3" class="gallery-img" loading="lazy" />
+  </button>
+</div>
+<div class="col-6 col-xl-3">
+  <button class="gallery-link" type="button" data-gallery="project-5" data-index="3" aria-label="Open Pintoflix image 4">
+    <img src="assets/project-5/image-4.png" alt="Pintoflix interface preview 4" class="gallery-img" loading="lazy" />
+  </button>
+</div></div>
+        <p class="project-description">A Netflix-inspired responsive movie interface with a Portuguese/English description toggle, created as an earlier project focused on responsive UI and interactive behaviour.</p>
+        <div class="project-actions">
+          <a href="https://ernestommtpinto.github.io/pintoflix/" target="_blank" rel="noopener noreferrer" class="live-project-link"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+          <a href="https://github.com/ernestommtpinto/pintoflix" target="_blank" rel="noopener noreferrer" class="github-project-link"><i class="bi bi-github"></i> Source Code</a>
+        </div>
+      </article>
 
-    <div class="lightbox-content">
-      <img src="" alt="" class="lightbox-img" id="lightboxImg" />
-      <p class="lightbox-caption" id="lightboxCaption"></p>
+      <div class="portfolio-cta reveal">
+        <p class="eyebrow">Let’s work together</p>
+        <h2>I’m open to frontend roles and selected freelance projects.</h2>
+        <p>If you think my experience could fit your team or project, I’d be happy to have a conversation.</p>
+        <a href="contact.html" class="btn btn-custom"><i class="bi bi-envelope"></i> Contact me</a>
+      </div>
     </div>
+  </section>
+</main>
 
-    <button class="lightbox-arrow lightbox-next" id="lightboxNext" type="button" aria-label="Next image">
-      <i class="bi bi-chevron-right"></i>
-    </button>
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project image preview">
+  <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close fullscreen image"><i class="bi bi-x-lg"></i></button>
+  <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous image"><i class="bi bi-chevron-left"></i></button>
+  <div class="lightbox-content">
+    <img src="" alt="" class="lightbox-img" id="lightboxImg" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
   </div>
+  <button class="lightbox-arrow lightbox-next" id="lightboxNext" type="button" aria-label="Next image"><i class="bi bi-chevron-right"></i></button>
+</div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
+
 </body>
 </html>
